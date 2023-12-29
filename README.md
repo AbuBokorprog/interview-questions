@@ -5,17 +5,22 @@ This project contains a collection of interview questions related to HTML, CSS, 
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Folder Structure](#folder-structure)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [HTML](#html)
+- [CSS](#css)
+- [JavaScript](#javascript)
+- [TypeScript](#typescript)
+- [React](#react)
 
 ## Introduction
 
 This project aims to provide a comprehensive set of interview questions and sample solutions for candidates preparing for web development interviews. The questions cover HTML, CSS, JavaScript, TypeScript, and React.js.
 
-## Folder Structure
+## HTML
 
+## CSS
+
+## JavaScript
+
+## TypeScript
+
+## React
