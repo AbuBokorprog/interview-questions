@@ -17,10 +17,11 @@ This project aims to provide a comprehensive set of interview questions and samp
 
 ## HTML
 ### Most Important HTML Interview Questions:
-**What is HTML?**
-HTML's meaning is HyperText Markup Language. It is a Markup language and standard text formatting language used for creating the structure and layout of web pages.
 
- **What are HTML tags?**
+**What is HTML?:**
+- HTML's meaning is HyperText Markup Language. It is a Markup language and standard text formatting language used for creating the structure and layout of web pages.
+
+ **What are HTML tags?:**
 Tags are used to structure the content and define the layout of a webpage. Tags use the symbols < and > to set them apart from the HTML content. Tags 2 kinds, One is a Container Tag and two is an Empty Tag. A  Container Tag has an opening Tag and a Closing Tag but an empty Tag has only an opening Tag.
 
 **What are HTML Attributes?**
@@ -28,9 +29,9 @@ Attributes are the properties that can be added to an HTML tag. They modify the 
 
 **Can you separate a section of text in HTML?**
 Yes, I can separate sections of text in HTML using various tags to create different blocks or divisions within the content. Some of the common in HTML with the following tags:
-- <p> tag - Use this tag to write any text paragraph.
-- <br> tag - Use this for separating a line of text. This will break a current line and also shift the flow of a text over to a new line.
-- <h1> - <h6> tag Used to define headings and subheadings within a document
+<p> tag - Use this tag to write any text paragraph.
+<br> tag - Use this for separating a line of text. This will break a current line and also shift the flow of a text over to a new line.
+<h1> - <h6> tag Used to define headings and subheadings within a document
 
 **What is the key difference between HTML Tags and Elements? / Are the HTML tags and elements the same thing?**
 HTML tags are used to define the structure of a web page, while HTML elements are made up of a set of tags that define a specific part of a web page. 
@@ -46,15 +47,15 @@ HTML5 is the improved HTML version released in 2014 by the World Wide Web. It in
 **What is Semantic HTML?**
 Semantic HTML is a coding style. HTML uses semantics to reinforce the semantics or purpose of the content.
 Here are some examples of semantic tags introduced in HTML5:
-- <header>
-- <nav>
-- <main>
-- <article>
-- <section>
-- <aside>
-- <summary>
-- <marks>
-- <footer>
+<header>
+<nav>
+<main>
+<article>
+<section>
+<aside>
+<summary>
+<marks>
+<footer>
 
 **What is the Use of Comments in HTML?**
 Comments are used in an HTML document to make important notes or explanations to help developers within the code. They are not displayed in the browser when the code is executed. A comment is always written in between the ‘-‘ symbol at the beginning and end of the angular brackets. For example, “<!-“ and “->.”
@@ -64,9 +65,9 @@ Forms are used to collect user information, such as login information or search 
 
 **What are the different types of lists in HTML?**
 HTML lists are used to group a set of related items in lists. It is defined with an <li> tag. There are 3 types of lists: 
-- Ordered List – Ordered lists are numbered lists,
-- Unordered List – unordered lists are bulleted lists and
-- Definition List – definition lists are lists of terms and their definitions.
+Ordered List – Ordered lists are numbered lists,
+Unordered List – unordered lists are bulleted lists and
+Definition List – definition lists are lists of terms and their definitions.
 **How do you create a hyperlink in HTML?**
 An anchor tag is used to link two sections, web pages, or website templates in HTML. We use the anchor tag <a> to create a hyperlink in HTML that links one page to another page.
 
