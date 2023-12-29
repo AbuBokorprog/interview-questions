@@ -179,7 +179,7 @@ Media types are used to apply different styles based on the type of media used t
 
 ## JavaScript
 
-### Most Important Javascript Interview Question:
+Most Important Javascript Interview Question:
 
 **What is JavaScript?**
 
