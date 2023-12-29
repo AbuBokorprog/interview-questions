@@ -179,6 +179,176 @@ Media types are used to apply different styles based on the type of media used t
 
 ## JavaScript
 
+### Most Important Javascript Interview Question:
+
+**What is JavaScript?**
+
+- JavaScript is a scripting and object-based, lightweight, cross-platform translated programming language. It is different from Java language. which is used for web
+
+**What is the difference between undefined and not defined in JavaScript?**
+
+- In JavaScript, if you try to use a variable that doesn't exist and has not been declared, then JavaScript will throw an error var name is not defined and script will stop executing. However, if you use typeof undeclared_variable, then it will return undefined.
+
+**What is the difference between undefined, null and not defined?**
+
+- In JavaScript, `null`, `undefined`, and "not defined" refer to different concepts related to the absence or lack of a value.
+
+**Undefined:**
+   - **Declaration:** A variable that has been declared but not assigned a value is `undefined`.
+   - **Function Parameters:** If a function is called with fewer arguments than declared parameters, the remaining parameters are set to `undefined`.
+   - **Object Properties:** When trying to access an object property that doesn't exist, the result is `undefined`.
+```javascript
+   let x; // x is undefined
+   function example(a, b) {
+     console.log(b); // b is undefined if not provided
+   }
+   let obj = {};
+   console.log(obj.property); // property is undefined
+   ```
+   
+**Null:**
+   - **Assignment:** `null` is an assignment value that represents the intentional absence of any object value.
+   - **Explicit Assignment:** You can explicitly assign a variable or object property to `null` to indicate that it has no value or is empty.
+
+   ```javascript
+   let y = null;
+   let obj = { property: null };
+   ```
+
+**Not Defined:**
+   - **Variable Not Declared:** If you try to access a variable that has not been declared at all, it will result in a ReferenceError, and the variable is said to be "not defined."
+
+   ```javascript
+   console.log(z); // ReferenceError: z is not defined
+   ```
+
+**To summarize:**
+- `undefined` is a default value given to variables that have been declared but not assigned a value.
+- `null` is a value that represents the intentional absence of an object value.
+- `Not defined` refers to attempting to access a variable or property that has not been declared or defined in the current scope.
+
+It's important to understand these concepts to handle different scenarios in your JavaScript code effectively.
+
+**What are the different data types present in JavaScript?**
+
+#### There are 2 types of data types:
+- Primitive data types,
+- Non-Primitive data types.
+
+#### In the primitive data types follow: 
+- Number – It's all numbers with or without decimal.
+- String    – It is character words.
+- Boolean – The  Boolean is give two values - true or false. It is used for conditional purpose.
+- BigInt  – The BigInt is used for storing large numbers and can store large integers and is represented by adding “n” to an integer literal.
+- Symbol – It is a new data type introduced in the ES6 version of javascript. It is used to store an anonymous and unique value.
+- Undefined – The undefined means a variable is declared but not assigned. The value is undefined. We can also set this.
+- Null –The null means a variable is a non-existent, null, or invalid value.
+
+#### In the Non-Primitive data types follow:
+- Array – The Array data type is used for a group of similar values. Every value has an array that has a numeric position it is called an index, and it can be any type of data. The array index starts from 0.
+- Object – The Object is a Non-Primitive data type. It is used for the collection of data. In the Object have two properties key and value. The object key is always a string but the value can be any type of data type.
+- RegEx: It represents a regular expression.
+
+**What is the difference between == and ===?**
+
+- There are both comparison operators. Difference both of  this “==” is used to compare just values, while this “===” is used compare to values and data types.
+
+**What is the difference between undefined value and null value?**
+
+- The difference between Undefined means a variable is declared but not assigned. The value is undefined. While null means a variable is a non-existent, null, or invalid value.
+
+**Write a mul function which will produce the following outputs when invoked:**
+```js
+console.log(mul(2)(3)(4)); // output : 24 
+console.log(mul(4)(3)(4)); // output : 48
+```
+
+- Below is the answer followed by an explanation to how it works:
+```js
+function mul (x) {
+    return function (y) { // anonymous function 
+        return function (z) { // anonymous function 
+            return x * y * z; 
+        };
+    };
+}
+```
+
+**What is NaN property in JavaScript?**
+
+- NaN property means not a number. It is clarified that this number is not a legal number.
+
+**How to write a comment in JavaScript?**
+
+#### There are two kinds of comments in javascript:
+- `Single line:` single line comment written by a double slash(//) for example, //This is comments.
+
+- `Double-lines:` Double lines comment written by a slash with an asterisk symbol as /* this is comment */
+
+**What is the differences global scope, function scope and block scope?**
+
+#### Differences in global scope, function/local scope and block scope:
+
+- `Global Scope:` Global scope means when a variable or function declared global namespace having global scope. All the variables and functions having global scope can be accessed from anywhere inside the code.
+- `Function Scope:` function scope means which variable or function is declared inside a function. Only which variable or function can be accessed from within the function and not outside of it.
+
+- `Block Scope:` Block Scope means when a variable or function is declared inside a block {}, can be accessed only inside that block and cannot be accessed outside of it. But if Variables declared with var do not have block scope.
+
+**What are the types of errors in javascript?**
+
+####There are two types of errors in JavaScript:
+
+- `Syntax Error:` syntax error is structured mistake or spelling problem that causes the program to not execute at all or stop run.
+- `Logical Error:`  When the syntax is proper to correct, but the logic or program is incorrect. These are more difficult to correct the logical error than syntax issues since the logical error don’t display.
+
+**What is prototype property in JavaScript?**
+
+- Every JavaScript function has a prototype property (by default this property is null), that is mainly used for implementing inheritance. We add methods and properties to a function's prototype so that it becomes available to instances of that function.
+
+**What does the isNaN() function do?**
+
+- The isNan() function returns true if the variable value is not a number.
+
+**What is the difference between an arrow, and a regular function?**
+
+- A normal function has an arguments object which we can access in the function, but this argument does not exist in arrow functions.
+
+- The regular function created “this” variable which references the objects that call them, While Arrow functions do not create their own this.
+
+- The regular function can be accessed before initialization but Arrow functions cannot be accessed before initialization.
+
+**What is a callback function?**
+
+- A callback is a function which passed as an argument to another function.Then invoked inside the outer function to complete action.
+
+**What is the difference between setTimeout and setInterval?**
+
+- The setTimeout() function is a method to execute a specific block code after a certain period of time, and it will execute once after the time. 
+- SetInterval is almost similar to setTimeout. setInterval function calls a function after a time period, but it will execute continuously during the time interval. The time interval execute like a time gap after the function has to call another function every time.
+
+- The setTimeout function calls the block of code only once But The setInterval function calls the code after the specific time interval provide again and again.
+setTimeout to clear have cleartiemout(), while setInter to clear have clearInterval().
+
+**What are some advantages of using External JavaScript?**
+
+- External JavaScript code is javascript written separate file and then link to the html file. A Javascript file is linked in HTML file head or body section.
+`Some advantages of using external Javascript:`
+We can reuse
+Can be read code so easily and
+Easy to collaborate with designers and developers in HTML and Javascript files.
+
+**Tell me some of the advantages of JavaScript.**
+
+- Javascript learn is so easy than others languages. Web pages now have more functionality because of Javascript. Javascript is quite quick.
+
+**In JavaScript, how many different methods can you make an object?**
+
+-       Object.
+-       Class.
+-       create Method.
+-       Object Literals.
+-       using Function
+
 ## TypeScript
 
 ## React
