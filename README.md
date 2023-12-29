@@ -30,9 +30,9 @@ This project aims to provide a comprehensive set of interview questions and samp
 
 **Can you separate a section of text in HTML?**
 - Yes, I can separate sections of text in HTML using various tags to create different blocks or divisions within the content. Some of the common in HTML with the following tags:
-<p> tag - Use this tag to write any text paragraph.
-<br> tag - Use this for separating a line of text. This will break a current line and also shift the flow of a text over to a new line.
-<h1> - <h6> tag Used to define headings and subheadings within a document
+<p> tag: Use this tag to write any text paragraph.
+<br> tag: Use this for separating a line of text. This will break a current line and also shift the flow of a text over to a new line.
+<h1> to <h6> tag Used to define headings and subheadings within a document
 
 **What is the key difference between HTML Tags and Elements? / Are the HTML tags and elements the same thing?**
 - HTML tags are used to define the structure of a web page, while HTML elements are made up of a set of tags that define a specific part of a web page. 
