@@ -83,6 +83,100 @@ Definition List: definition lists are lists of terms and their definitions.
 
 ## CSS
 
+Most Important CSS Interview Questions:
+
+**Name some CSS frameworks.**
+- CSS frameworks are libraries that make website styling so easy. Some of the frameworks are Bootstrap, Tailwind CSS, Foundation, Bulma, Skeleton etc.
+What do you understand by the universal sector?
+The CSS universal selector (*) matches any element type's name instead of selecting elements of a particular type. For Example,
+```css
+* {    
+
+   color: blue;    
+
+   font-size: 10px;    
+
+}
+```
+**What are the elements of the CSS Box Model?**
+- The CSS box model defines the layout and design of CSS elements. The elements are Margin, Border, Padding and Contents.
+
+**How can CSS be integrated into an HTML page?**
+- We can three ways of integrating CSS into HTML.
+Inline: Using inline styles.
+Internal: Use the style tag in the head section.
+External: Writing CSS another file, and linking into the HTML page by link tag.
+
+**What is the difference between a class and an ID?**
+- Class and ID are used in HTML pages for styling. Class is used for multiple elements styling and there are no unique elements, while ID has a unique and is also used for single elements.
+
+**Define z-index.**
+- The Z-index specifies the stack order of elements that overlap each other. Its default value is zero and can take both negative and positive values. A higher z-index value is stacked above the lower index element. The values- auto, number, initial, and inherit.
+
+**How can you target h3 and h2 with the same styling?**
+- Multiple elements are targeted by separate with a comma.
+```css
+h3, h2{
+color: red;
+}
+```
+**What is responsive web design?**
+- Responsive Design is a web page creation approach that uses flexible images, flexible layouts, and CSS media queries. This design approach aims to create websites and applications that respond to different screen sizes, and devices and build web pages that detect the orientation and screen size of the visitors so that the layout can be changed accordingly. For example, desktop computers, laptops, tablets, and smartphones size.
+What are the different types of Selectors in CSS?
+There are various types of selectors available in CSS. Type Selector, class Selector, ID selector, Attribute Selector, child selector, pseudo-class selector and pseudo-element selector.
+
+**What is the difference between inline, inline block, and block?**
+Inline: Inline elements don’t start a new line. they appear on the same line as the content and tags beside them. Inline elements are < a >, < span >, < strong >, < I >,  and < img > tags. Inline elements we can’t set fixed width or height.
+Inline-Block: Inline Block is similar to inline elements. The difference is that inline-Block elements we can set fixed width or height.
+Block: Block elements start a new line and we can set fixed width or height. Block elements are < div >, < p > etc.
+
+**What are Pseudo classes?**
+- Pseudo class are special-type CSS selector That allows us to select the regular elements under certain conditions especially when we try to hover over the link. They start with a colon (:). Some common use of pseudo-class: 
+:hover
+:focus
+:visited
+:ntn-child
+:first-child
+:last-child
+
+**What are the properties of Flexbox?**
+Flexbox properties following:
+flex-direction
+flex-wrap
+flex-flow
+justify-content
+align-items
+align-content
+
+**Difference between CSS grid vs flexbox?**
+Grid is two dimensional and flex is one dimensional
+Grid used for large-sized layouts. While flex used for the components of an application.
+Grid layout is Two-dimensional while flex layout is one-dimensional.
+Flex Direction allows developers to align elements vertically or horizontally, which is used when developers create and reverse rows or columns.
+CSS Grid deploys fractional measure units for grid fluidity and auto-keyword functionality to automatically adjust columns or rows.
+
+**Tell us something about CSS3.**
+-CSS3 is the latest version of Cascading Style Sheets (CSS). CSS3 is divided into modules and is supported by almost every browser. Many graphics-related characteristics are introduced in CSS3 like box-shadow, Border-radius, and flexbox.
+
+**How do media types in CSS work?**
+Media types are used to apply different styles based on the type of media used to view the web page. There are various types of media properties print, speech, and screen.
+```css
+/* Styles for screens */
+@media screen {
+  body {
+    background-color: #f2f2f2;
+  }
+}
+
+  /* Additional styles for larger screens */
+  @media screen and (min-width: 768px) {
+    body {
+      font-size: 18px;
+    }
+  }
+```
+
+
 ## JavaScript
 
 ## TypeScript
